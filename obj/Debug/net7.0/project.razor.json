@@ -16555,11 +16555,6 @@
   "RootNamespace": "VideoGameStore",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\meowm\\Github\\VideoGameStore\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
-      "FileKind": "mvc"
-    },
-    {
       "FilePath": "c:\\Users\\meowm\\Github\\VideoGameStore\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
@@ -16567,11 +16562,6 @@
     {
       "FilePath": "c:\\Users\\meowm\\Github\\VideoGameStore\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\meowm\\Github\\VideoGameStore\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
