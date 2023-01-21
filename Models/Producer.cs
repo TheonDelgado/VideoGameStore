@@ -10,8 +10,9 @@ namespace VideoGameStore.Models
     {
         [Key]
         public int ActorId { get; set; }
-        public string ProfilPictureURL { get; set; }
+        public string ProfilePictureURL { get; set; }
         public string FullName { get; set; }
         public string Bio { get; set; }
+        public List<Movie> Movies { get; set; }
     }
 }

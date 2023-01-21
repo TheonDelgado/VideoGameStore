@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj": {}
+    "C:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj": {}
   },
   "projects": {
-    "c:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj": {
+    "C:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj",
+        "projectUniqueName": "C:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj",
         "projectName": "VideoGameStore",
-        "projectPath": "c:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj",
+        "projectPath": "C:\\Users\\meowm\\Github\\VideoGameStore\\VideoGameStore.csproj",
         "packagesPath": "C:\\Users\\meowm\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\meowm\\Github\\VideoGameStore\\obj\\",
+        "outputPath": "C:\\Users\\meowm\\Github\\VideoGameStore\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -25,7 +25,9 @@
           "net7.0"
         ],
         "sources": {
-          "https://api.nuget.org/v3/index.json": {}
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.emzi0767.com/api/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -44,6 +46,16 @@
           "targetAlias": "net7.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
               "target": "Package",
               "version": "[7.0.2, )"
             }
