@@ -21,7 +21,7 @@ namespace VideoGameStore.Controllers
         {
             var allProducers = await context.Producers.ToListAsync();
 
-            return View();
+            return View(allProducers);
         }
     }
 }

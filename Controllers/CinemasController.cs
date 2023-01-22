@@ -21,7 +21,7 @@ namespace VideoGameStore.Controllers
         {
             var allCinemas = await context.Cinemas.ToListAsync();
 
-            return View();
+            return View(allCinemas);
         }
     }
 }
