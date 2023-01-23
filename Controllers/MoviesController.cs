@@ -19,7 +19,7 @@ namespace VideoGameStore.Controllers
 
         public async Task<IActionResult> Index() 
         {
-            var allMovies = await context.Movies.ToListAsync();
+            var allMovies = await context.Movies.Include(n => n.Cinema).OrderBy(n => n.Name).ToListAsync();
 
             return View(allMovies);
         }
