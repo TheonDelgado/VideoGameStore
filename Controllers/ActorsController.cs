@@ -4,22 +4,23 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using VideoGameStore.Data;
+using VideoGameStore.Data.Services;
 
 namespace VideoGameStore.Controllers
 {
     public class ActorsController : Controller
     {
-        private readonly AppDbContext context;
+        private readonly IActorsService service;
 
-        public ActorsController(AppDbContext context)
+        public ActorsController(IActorsService service)
         {
-            this.context = context;
+            this.service = service;
         }
 
 
-        public IActionResult Index() 
+        public async Task<IActionResult> Index() 
         {
-            var data = context.Actors.ToList();
+            var data =  await service.GetAll();
 
             return View(data);
         }
